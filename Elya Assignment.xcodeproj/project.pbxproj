@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,21 @@
 		79F88051232D138500C7744F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F8804F232D138500C7744F /* Main.storyboard */; };
 		79F88053232D138700C7744F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F88052232D138700C7744F /* Assets.xcassets */; };
 		79F88056232D138700C7744F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F88054232D138700C7744F /* LaunchScreen.storyboard */; };
+		79F88063232D18AB00C7744F /* ParentTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F88062232D18AB00C7744F /* ParentTabBarViewController.swift */; };
+		79F88065232D18DB00C7744F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F88064232D18DB00C7744F /* ThirdViewController.swift */; };
+		79F88068232D1F3D00C7744F /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F88067232D1F3D00C7744F /* ImageCollectionViewCell.swift */; };
+		79F8806A232D24AC00C7744F /* RoundCornerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F88069232D24AC00C7744F /* RoundCornerButton.swift */; };
+		79F8806E232D26AA00C7744F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F8806D232D26AA00C7744F /* DataService.swift */; };
+		79F88074232D29B300C7744F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F88073232D29B300C7744F /* Constant.swift */; };
+		79F88076232D40FE00C7744F /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F88075232D40FE00C7744F /* TextTableViewCell.swift */; };
+		79F8807B232D44BB00C7744F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F8807A232D44BB00C7744F /* User.swift */; };
+		CE4009F351D46DA5C693BDB2 /* Pods_Elya_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3E9C659E2E056C6749C89C /* Pods_Elya_Assignment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D3E9C659E2E056C6749C89C /* Pods_Elya_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Elya_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57613969643AD7DBED542701 /* Pods-Elya Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elya Assignment.debug.xcconfig"; path = "Target Support Files/Pods-Elya Assignment/Pods-Elya Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		67097829B231D0E197349CF1 /* Pods-Elya Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elya Assignment.release.xcconfig"; path = "Target Support Files/Pods-Elya Assignment/Pods-Elya Assignment.release.xcconfig"; sourceTree = "<group>"; };
 		79F88046232D138500C7744F /* Elya Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elya Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F88049232D138500C7744F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79F8804B232D138500C7744F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +36,14 @@
 		79F88052232D138700C7744F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79F88055232D138700C7744F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79F88057232D138700C7744F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F88062232D18AB00C7744F /* ParentTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentTabBarViewController.swift; sourceTree = "<group>"; };
+		79F88064232D18DB00C7744F /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		79F88067232D1F3D00C7744F /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		79F88069232D24AC00C7744F /* RoundCornerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCornerButton.swift; sourceTree = "<group>"; };
+		79F8806D232D26AA00C7744F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		79F88073232D29B300C7744F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		79F88075232D40FE00C7744F /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		79F8807A232D44BB00C7744F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4009F351D46DA5C693BDB2 /* Pods_Elya_Assignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05F76415E4EB654A964020B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57613969643AD7DBED542701 /* Pods-Elya Assignment.debug.xcconfig */,
+				67097829B231D0E197349CF1 /* Pods-Elya Assignment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		79F8803D232D138500C7744F = {
 			isa = PBXGroup;
 			children = (
 				79F88048232D138500C7744F /* Elya Assignment */,
 				79F88047232D138500C7744F /* Products */,
+				05F76415E4EB654A964020B8 /* Pods */,
+				C9EB8E8B4A7ACE4C443870B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,103 @@
 		79F88048232D138500C7744F /* Elya Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				79F88049232D138500C7744F /* AppDelegate.swift */,
-				79F8804B232D138500C7744F /* FirstViewController.swift */,
-				79F8804D232D138500C7744F /* SecondViewController.swift */,
-				79F8804F232D138500C7744F /* Main.storyboard */,
-				79F88052232D138700C7744F /* Assets.xcassets */,
-				79F88054232D138700C7744F /* LaunchScreen.storyboard */,
+				79F88079232D44AB00C7744F /* Model */,
+				79F88072232D29A500C7744F /* Helper */,
+				79F8806B232D268900C7744F /* Service */,
+				79F88066232D1F1A00C7744F /* View */,
 				79F88057232D138700C7744F /* Info.plist */,
+				79F8805D232D13CE00C7744F /* Controller */,
+				79F88061232D15B700C7744F /* Extension */,
+				79F88060232D13F500C7744F /* Resource */,
+				79F8805F232D13EA00C7744F /* Storyboard */,
 			);
 			path = "Elya Assignment";
+			sourceTree = "<group>";
+		};
+		79F8805D232D13CE00C7744F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79F8805E232D13DB00C7744F /* Application */,
+				79F8804B232D138500C7744F /* FirstViewController.swift */,
+				79F88062232D18AB00C7744F /* ParentTabBarViewController.swift */,
+				79F8804D232D138500C7744F /* SecondViewController.swift */,
+				79F88064232D18DB00C7744F /* ThirdViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		79F8805E232D13DB00C7744F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				79F88049232D138500C7744F /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		79F8805F232D13EA00C7744F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				79F88054232D138700C7744F /* LaunchScreen.storyboard */,
+				79F8804F232D138500C7744F /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		79F88060232D13F500C7744F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				79F88052232D138700C7744F /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		79F88061232D15B700C7744F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		79F88066232D1F1A00C7744F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79F88067232D1F3D00C7744F /* ImageCollectionViewCell.swift */,
+				79F88069232D24AC00C7744F /* RoundCornerButton.swift */,
+				79F88075232D40FE00C7744F /* TextTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79F8806B232D268900C7744F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				79F8806D232D26AA00C7744F /* DataService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		79F88072232D29A500C7744F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				79F88073232D29B300C7744F /* Constant.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		79F88079232D44AB00C7744F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79F8807A232D44BB00C7744F /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9EB8E8B4A7ACE4C443870B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D3E9C659E2E056C6749C89C /* Pods_Elya_Assignment.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79F8805A232D138700C7744F /* Build configuration list for PBXNativeTarget "Elya Assignment" */;
 			buildPhases = (
+				4D8DFA700EA98771309FC09A /* [CP] Check Pods Manifest.lock */,
 				79F88042232D138500C7744F /* Sources */,
 				79F88043232D138500C7744F /* Frameworks */,
 				79F88044232D138500C7744F /* Resources */,
+				1ED24A0349CD6F9D39281B8E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +255,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1ED24A0349CD6F9D39281B8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Elya Assignment/Pods-Elya Assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Elya Assignment/Pods-Elya Assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Elya Assignment/Pods-Elya Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D8DFA700EA98771309FC09A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Elya Assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		79F88042232D138500C7744F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F8806A232D24AC00C7744F /* RoundCornerButton.swift in Sources */,
+				79F88068232D1F3D00C7744F /* ImageCollectionViewCell.swift in Sources */,
+				79F88074232D29B300C7744F /* Constant.swift in Sources */,
+				79F88063232D18AB00C7744F /* ParentTabBarViewController.swift in Sources */,
+				79F88076232D40FE00C7744F /* TextTableViewCell.swift in Sources */,
 				79F8804E232D138500C7744F /* SecondViewController.swift in Sources */,
+				79F88065232D18DB00C7744F /* ThirdViewController.swift in Sources */,
 				79F8804A232D138500C7744F /* AppDelegate.swift in Sources */,
 				79F8804C232D138500C7744F /* FirstViewController.swift in Sources */,
+				79F8806E232D26AA00C7744F /* DataService.swift in Sources */,
+				79F8807B232D44BB00C7744F /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,10 +456,11 @@
 		};
 		79F8805B232D138700C7744F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57613969643AD7DBED542701 /* Pods-Elya Assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CNZQML8WFZ;
+				DEVELOPMENT_TEAM = 4SAZBNJXNJ;
 				INFOPLIST_FILE = "Elya Assignment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,10 +475,11 @@
 		};
 		79F8805C232D138700C7744F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67097829B231D0E197349CF1 /* Pods-Elya Assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CNZQML8WFZ;
+				DEVELOPMENT_TEAM = 4SAZBNJXNJ;
 				INFOPLIST_FILE = "Elya Assignment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
